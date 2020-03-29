@@ -1,3 +1,5 @@
 require 'slack-ruby-bot'
 require 'ruby-bot/commands/say_hello'
 require 'ruby-bot/bot'
+require 'ruby-bot/random_quotes'
+require 'ruby-bot/commands/random_quotes'
