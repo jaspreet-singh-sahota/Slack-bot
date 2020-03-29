@@ -7,7 +7,11 @@ module RubyBot
       command :say_hello do
         title 'say_hello'
         desc 'Will greet the user'
-        # long_desc ''
+      end
+
+      command :quotes do
+      title 'quotes'
+      desc 'Return random quotes to the user'
       end
     end
   end
