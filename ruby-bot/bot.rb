@@ -13,6 +13,11 @@ module RubyBot
       title 'quotes'
       desc 'Return random quotes to the user'
       end
+
+      command :weather_report do
+      title 'weather_report'
+      desc 'Return the basic weather report'
+      end
     end
   end
 end
