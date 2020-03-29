@@ -9,9 +9,12 @@ class RandomQuotes
   default_params fields: 'smallIcon,shortDescription', q: 'search'
 
   def self.quotes
+    random_number = rand(500)
     response = get('https://type.fit/api/quotes')
     response = JSON.parse(response.body)
-    response[rand(500)]['text']
+    text = response[random_number]['text']
+    author = response[random_number]['author']
+    quote = "#{author}: - #{text}"
   end
 end
 
