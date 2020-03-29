@@ -19,6 +19,6 @@ class Weather
     temp_min = response['main']['temp_min']
     temp_max = response['main']['temp_max']
     wind_speed = response['wind']['speed']
-    report = "Weather: - #{main}\n Temperature: - #{temp}\n pressure: - #{pressure}\n Humidity: - #{humidity}\n Minimun Temprature:- #{temp_min}\n Maximun tempreatue: - #{temp_max}\n Wind Speed: - #{wind_speed}" 
+    report = "Weather: - #{main}\n Temperature: - #{temp}\n pressure: - #{pressure}\n Humidity: - #{humidity}\n Minimun Temprature:- #{temp_min}\n Maximun tempreatue: - #{temp_max}\n Wind Speed: - #{wind_speed}"
   end
 end
