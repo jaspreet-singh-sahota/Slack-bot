@@ -15,4 +15,3 @@ class RandomQuotes
   end
 end
 
-p RandomQuotes.quotes
