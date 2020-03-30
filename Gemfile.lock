@@ -39,6 +39,7 @@ GEM
       timers (>= 4.1.1)
     concurrent-ruby (1.1.6)
     console (1.8.2)
+    covid19_data_ruby (0.0.1)
     dotenv (2.7.5)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
@@ -86,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   async-websocket (~> 0.8.0)
   celluloid-io
+  covid19_data_ruby
   dotenv
   httparty
   pp
