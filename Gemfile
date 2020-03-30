@@ -14,3 +14,10 @@ gem 'celluloid-io'
 gem 'httparty'
 gem 'pp'
 gem 'covid19_data_ruby'
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'vcr'
+  gem 'webmock'
+end
