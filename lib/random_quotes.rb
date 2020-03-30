@@ -14,7 +14,6 @@ class RandomQuotes
     response = JSON.parse(response.body)
     text = response[random_number]['text']
     author = response[random_number]['author']
-    quote = "#{author}: - #{text}"
+    "#{author}: - #{text}"
   end
 end
-

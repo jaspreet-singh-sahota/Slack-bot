@@ -10,18 +10,18 @@ module RubyBot
       end
 
       command :quotes do
-      title 'quotes'
-      desc 'Return random quotes'
+        title 'quotes'
+        desc 'Return random quotes'
       end
 
       command :weather_report do
-      title 'weather_report'
-      desc 'Return basic weather report'
+        title 'weather_report'
+        desc 'Return basic weather report'
       end
-      
+
       command :covid_current_data do
-      title 'covid_current_data'
-      desc 'Return the current data of the Covid-19'
+        title 'covid_current_data'
+        desc 'Return the current data of the Covid-19'
       end
     end
   end

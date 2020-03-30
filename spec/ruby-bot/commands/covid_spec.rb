@@ -8,7 +8,7 @@ describe RubyBot::Commands::CovidData do
   let(:file) do
     File.open('lib/covid').read
   end
-  
+
   describe '.latest_update' do
     it 'return the COVID latest updated in String format' do
       expect(Covid.latest_update).to be_a(String)

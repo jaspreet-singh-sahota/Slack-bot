@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jaspreet-singh-sahota/Slack-bot">
-    <img src="images/microverse.png" alt="Logo" width="80" height="80">
+    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5726/s300/icon-white-on-murple-copy.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Slack Bot</h3>

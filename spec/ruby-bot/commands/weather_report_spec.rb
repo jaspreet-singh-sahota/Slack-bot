@@ -8,7 +8,7 @@ describe RubyBot::Commands::WeatherReport do
   let(:file) do
     File.open('lib/weather_report').read
   end
-  
+
   describe '.weather_report' do
     it 'return the weather updated in String format' do
       expect(Weather.weather_report).to be_a(String)
