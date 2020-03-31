@@ -7,4 +7,4 @@ Dir[File.join(File.dirname(__FILE__), 'support', '**/*.rb')].sort.each do |file|
   require file
 end
 
-require_relative '../ruby-bot'
+require_relative '../ruby_bot'
