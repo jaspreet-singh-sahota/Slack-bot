@@ -56,6 +56,10 @@
 This is the Microverse Capstone Project where I have to build a Slack, Twitter or Telegram bot.
 I picked Slack Bot that could give back the current update or stats of the Weather, and stats for the COVID-19 for each country. And it also returns the random quotes, just to make things light.
 
+## LIVE VIDEO 
+
+https://www.loom.com/share/fb91dc440b42439688cc3fd1708411a5
+
 <!-- BUILD WITH -->
 ## Built With
 This project was built using these technologies.

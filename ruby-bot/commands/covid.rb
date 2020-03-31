@@ -16,7 +16,7 @@ module RubyBot
           else
             result = ''
             Covid19Data.get_all_locations['locations'].each do |arr|
-              result += "Country: - #{arr['country']}\n Population: - #{arr['country_population']}\n Confirmed Cases Today: - #{arr['latest']['confirmed']}\n Deaths: - #{arr['latest']['deaths']}\n Recovered: - #{arr['latest']['recovered']}\n" if input.capitalize == arr['country'] || arr['country'] == 'US'
+              result += "Country: - #{arr['country']}\n Population: - #{arr['country_population']}\n Confirmed Cases Today: - #{arr['latest']['confirmed']}\n Deaths: - #{arr['latest']['deaths']}\n Recovered: - #{arr['latest']['recovered']}\n" if input.capitalize == arr['country'] || input.upcase == arr['country']
             end
             client.say(channel: data.channel, text: result)
           end
