@@ -30,9 +30,6 @@
   <p align="center">
     This is the Microverse Capstone Project.
     <br />
-    <a href="https://github.com/jaspreet-singh-sahota/Slack-bot"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/jaspreet-singh-sahota/Slack-bot/issues">Report Bug</a>
     ·
     <a href="https://github.com/jaspreet-singh-sahota/Slack-bot/issues">Request Feature</a>
@@ -43,10 +40,10 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
+* [How it works](#How-it-works)
+* [Built With](#built-with)
 * [Contact](#Authors)
 * [Acknowledgements](#acknowledgements)
-* [How it works](#How-it-works)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -92,37 +89,37 @@ You can log into the Slack workspace where you installed it and invite it to you
 
 Then typing `@slack-ruby-bot help` in your slack channel will display all the available commands: -
 
-![Screenshot from 2020-03-31 01-08-35](https://user-images.githubusercontent.com/55361440/77954409-32e5f100-72ec-11ea-8685-3e60d35f3ccb.png)
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/55361440/77954409-32e5f100-72ec-11ea-8685-3e60d35f3ccb.png" </p>
 
 ### Commands
 
 - `@slack-ruby-bot say_hello` will say hi to the user.
 
-![Screenshot from 2020-03-31 01-11-17](https://user-images.githubusercontent.com/55361440/77954628-8a845c80-72ec-11ea-86a1-57eaa01e1cc4.png)
-)
+<p align="center"> <img src="https://user-images.githubusercontent.com/55361440/77954628-8a845c80-72ec-11ea-86a1-57eaa01e1cc4.png"> </p>
 
-- `@slack-ruby-bot weather_report` will return the basic weather report.
-
-![Screenshot from 2020-03-31 03-30-40](https://user-images.githubusercontent.com/55361440/77966091-03d97a80-7300-11ea-9ad1-41b424d6646a.png)
+ - `@slack-ruby-bot weather_report` will return the basic weather report.
+ 
+ <p align="center"> <img src="https://user-images.githubusercontent.com/55361440/77966091-03d97a80-7300-11ea-9ad1-41b424d6646a.png" </p>
 
 - `@slack-ruby-bot quotes` will return the Quote with the Author's name.
 
-![Screenshot from 2020-03-31 03-33-31](https://user-images.githubusercontent.com/55361440/77966321-692d6b80-7300-11ea-8f0c-dde09cd097cc.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/55361440/77966321-692d6b80-7300-11ea-8f0c-dde09cd097cc.png" </p>
 
 - `@slack-ruby-bot covid_current_data` will return the current data of COVID-19
 
-![Screenshot from 2020-03-31 03-39-53](https://user-images.githubusercontent.com/55361440/77966774-549da300-7301-11ea-94cf-0a4f7245cdf3.png)
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/55361440/77966774-549da300-7301-11ea-94cf-0a4f7245cdf3.png" </p>
 
 - `@slack-ruby-bot covid_world_data` will return the COVID-19 data of 256 countries.
 
-![Screenshot from 2020-03-31 03-42-37](https://user-images.githubusercontent.com/55361440/77966925-af36ff00-7301-11ea-83ce-f7b0d02cd3b4.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/55361440/77966925-af36ff00-7301-11ea-83ce-f7b0d02cd3b4.png" </p>
+
+
 
 #### But what if you want the data of a particular country, you can also do that:-
 
 - Mention the country name after the covid like this `@slack-ruby-bot covid India`.
-
-![Screenshot from 2020-03-31 03-49-07](https://user-images.githubusercontent.com/55361440/77967396-a561cb80-7302-11ea-8ddc-855d15a4db85.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/55361440/77967396-a561cb80-7302-11ea-8ddc-855d15a4db85.png"  </p> 
 
 <!-- BUILD WITH -->
 ## Built With
@@ -135,7 +132,9 @@ This project was built using these technologies.
 
 # Testing
 
-- bundle exec rspec
+```bash
+  bundle exec rspec
+```
 
 <!-- CONTACT -->
 ## Authors
