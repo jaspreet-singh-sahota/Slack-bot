@@ -51,25 +51,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot from 2020-03-30 23-00-15](https://user-images.githubusercontent.com/55361440/77943151-64ee5780-72da-11ea-8595-793b3497fb28.png)
+This is the Microverse Ruby Capstone Project. In this project I have build a Slack bot.
+Feature of the Slack Bot are :- 
+- Weather updates
+- Stats for the COVID-19 for each country 
+- Random quotes
 
-This is the Microverse Capstone Project where I have to build a Slack, Twitter or Telegram bot.
-I picked Slack Bot that could give back the current update or stats of the Weather, and stats for the COVID-19 for each country. And it also returns the random quotes, just to make things light.
+![Screenshot from 2020-03-30 23-00-15](https://user-images.githubusercontent.com/55361440/77943151-64ee5780-72da-11ea-8595-793b3497fb28.png)
 
 ## LIVE VIDEO 
 
 https://www.loom.com/share/fb91dc440b42439688cc3fd1708411a5
 
-<!-- BUILD WITH -->
-## Built With
-This project was built using these technologies.
-* Ruby
-* Rubocop
-* VsCode
-* Rspec
-
-<!-- ABOUT THE PROJECT -->
-## Installation
 
 ### Setup
 
@@ -80,15 +73,16 @@ In order to test Stackbot you will need to create a [Slack APP](https://slack.co
 To test Stack bot locally, clone the repository, navigate to it's containing directory, and run:
 
 #### Clone the repository and follow the steps to run the bot.
-
-- $ `git clone git@github.com:jaspreet-singh-sahota/Slack-bot.git`
-- $ bundle install
-- $ echo 'SLACK_API_TOKEN=your_token_here' > .env
-- $ rackup
-
+```bash
+  git clone git@github.com:jaspreet-singh-sahota/Slack-bot.git
+  cd Slack-bot
+  bundle install
+  echo 'SLACK_API_TOKEN=your_token_here' > .env
+  rackup
+```
 This should install all ruby gems, generate an .env file containing the API token from the Setup, and start a local server where Stackbot will live.
 
-Then you can you the command `rackup` in your terminial to active this bot.
+Then you can run the command `rackup` in your terminial to active this bot.
 
 <!-- HOW IT WORKS -->
 
@@ -130,6 +124,19 @@ Then typing `@slack-ruby-bot help` in your slack channel will display all the av
 
 ![Screenshot from 2020-03-31 03-49-07](https://user-images.githubusercontent.com/55361440/77967396-a561cb80-7302-11ea-8ddc-855d15a4db85.png)
 
+<!-- BUILD WITH -->
+## Built With
+
+This project was built using these technologies.
+* Ruby
+* Rubocop
+* VsCode
+* Rspec 
+
+# Testing
+
+- bundle exec rspec
+
 <!-- CONTACT -->
 ## Authors
 
@@ -138,6 +145,7 @@ Then typing `@slack-ruby-bot help` in your slack channel will display all the av
 - [LinkedIn](https://www.linkedin.com/in/jaspreet-singh-a28286146/)
 - [GitHub](https://github.com/jaspreet-singh-sahota)
 - [E-mail](jaspreetsinghjassi01@gmail.com)
+- [Portfolio](https://jaspreet-singh-portfolio.netlify.app/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
